@@ -39,7 +39,7 @@ jobs:
       - name: Upload CI artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: jellyfin_webos
+          name: jellyfinwebos
           path: |
             ${{github.workspace}}/build/*
 
